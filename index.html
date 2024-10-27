@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Vtu-app</title>
+		<link rel="icon" href="images/Logo.svg" type="image/svg+xml" />
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+
+		<!-- google fonts: montserrat and syne -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- font awesome icons-->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<!-- navigation menu -->
+		<nav class="bg-transparent container mt-2 navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="images/Logo.svg" alt="vtu-logo" width="100" height="50" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarToggler"
+					aria-controls="navbarToggler"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarToggler">
+					<ul class="mb-2 mb-lg-0 montserrat-font ms-auto navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Products</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact Us</a>
+						</li>
+
+						<li class="nav-item dropdown">
+							<button
+								type="button"
+								class="btn-sm py-2 btn ms-lg-5 mt-lg-0 mt-2 dropdown-toggle bb rounded-pill fw-semibold"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								<i class="fa fa-download me-1" aria-hidden="true"></i>
+								Download App Now
+							</button>
+							<ul class="dropdown-menu border border-0 w-fit round p-3 mt-2">
+								<li>
+									<a
+										class="btn btn-sm bb fw-semibold rounded-pill py-2 px-4"
+										href="#"
+									>
+										<img src="images/Playstore.svg" alt="logo" class="me-2" />
+										Google Play
+									</a>
+								</li>
+								<li class="mt-2">
+									<a
+										class="btn btn-sm bb fw-semibold rounded-pill py-2 px-4"
+										href="#"
+									>
+										<img src="images/Apple.svg" alt="logo" class="me-2" />
+										Apple Store
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Section One -->
+		<div class="container mt-3 syne-font">
+			<div class="row gap-4">
+				<div class="col-lg mt-md-5">
+					<div class="h1 fw-bolder d-flex flex-column gap-3 display-1">
+						<span class="pay">Pay For</span>
+						<span class="data">Data,</span>
+						<span class="airtime">Airtime</span>
+						<span class="light">Light <span class="pay">and</span></span>
+						<div class="data d-flex align-items-center gap-3">
+							<p class="mb-0">Bill</p>
+							<img src="images/users.png" alt="logo" class="w-50" />
+						</div>
+					</div>
+
+					<div>
+						<p class="montserrat-font fw-semibold">
+							Enjoy affordable data and convenient billing system with us
+						</p>
+					</div>
+
+					<div class="container row montserrat-font gap-2">
+						<a
+							class="col-md sec1-logo-bg w-fit py-1 px-5 text-white rounded-5 d-flex align-items-center"
+						>
+							<img src="images/Playstore.svg" alt="logo" class="img-fluid" />
+							<p class="fw-semibold fs-4 ms-3">
+								<span class="fw-medium text-sm">Download from</span>
+								<br />Google play
+							</p>
+						</a>
+						<a
+							class="col-md sec1-logo-bg w-fit py-1 px-5 text-white rounded-5 d-flex align-items-center"
+						>
+							<img src="images/Apple.svg" alt="logo" class="img-fluid" />
+							<p class="fw-semibold fs-4 ms-3">
+								<span class="fw-medium text-sm">Download from</span>
+								<br />Apple Store
+							</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg position-relative">
+					<img src="images/Section1.png" alt="img" class="img-fluid" />
+				</div>
+			</div>
+		</div>
+
+		<!-- Section Two -->
+		<div class="container mt-5">
+			<h1 class="display-2 pay syne-font fw-bold">Our products</h1>
+			<p class="pay fs-4 montserrat-font">What we offer</p>
+			<div class="row gap-3">
+				<div class="col-lg order-2 order-lg-1">
+					<img src="images/section2.png" alt="img" class="img-fluid" />
+				</div>
+
+				<div class="col-lg grid-layout gap-3 order-1 order-lg-2">
+					<div class="d-flex flex-column gap-3">
+						<div
+							class="bg-white rounded-4 p-3 d-flex flex-column justify-content-center custom-dimension1"
+						>
+							<img
+								src="images/data.png"
+								alt="img"
+								class="mb-3"
+								style="width: 30%"
+							/>
+							<p class="text-dark fw-bold fs-3 syne-font">Mobile Data</p>
+							<p class="text-secondary montserrat-font text-sm">
+								Enjoy unbeatable savings with our affordable data plans for all
+								networks.
+							</p>
+						</div>
+
+						<div
+							class="bg-white rounded-4 p-3 d-flex flex-column justify-content-center custom-dimension1"
+						>
+							<img
+								src="images/cable.png"
+								alt="img"
+								class="mb-3"
+								style="width: 30%"
+							/>
+							<p class="text-dark fw-bold fs-3 syne-font">Cable Subscription</p>
+							<p class="text-secondary montserrat-font text-sm">
+								Activate your cable & TV subscription instantly at discounted
+								rates and enjoy nonstop access to your favorite shows
+							</p>
+						</div>
+					</div>
+
+					<div class="d-flex flex-column gap-3">
+						<div
+							class="bg-white rounded-4 p-3 d-flex flex-column justify-content-center custom-dimension2"
+						>
+							<img
+								src="images/airtime.png"
+								alt="img"
+								class="mb-3"
+								style="width: 30%"
+							/>
+							<p class="text-dark fw-bold fs-3 syne-font">Airtime Top Up</p>
+							<p class="text-secondary montserrat-font text-sm">
+								Fast, secure airtime top-up.
+							</p>
+						</div>
+
+						<div
+							class="bg-white rounded-4 p-3 d-flex flex-column justify-content-center custom-dimension2"
+						>
+							<img
+								src="images/bill.png"
+								alt="img"
+								class="mb-3"
+								style="width: 30%"
+							/>
+							<p class="text-dark fw-bold fs-3 syne-font">Utility Bill</p>
+							<p class="text-secondary montserrat-font text-sm">
+								Pay utilities quickly and effortlessly.
+							</p>
+						</div>
+
+						<div
+							class="bg-white rounded-4 p-3 d-flex flex-column justify-content-center custom-dimension2"
+						>
+							<img
+								src="images/betting.png"
+								alt="img"
+								class="mb-3"
+								style="width: 30%"
+							/>
+							<p class="text-dark fw-bold fs-3 syne-font">
+								Fund your betting wallet
+							</p>
+							<p class="text-secondary montserrat-font text-sm">
+								Supports funding to all betting wallet
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Section Three -->
+		<div id="carouselExampleCaptions" class="carousel slide mt-5">
+			<div class="carousel-indicators">
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="0"
+					class="active"
+					aria-current="true"
+					aria-label="Slide 1"
+				></button>
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="1"
+					aria-label="Slide 2"
+				></button>
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="2"
+					aria-label="Slide 3"
+				></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/slide1.jpeg" class="d-block w-100" alt="..." />
+					<div class="carousel-caption d-none d-md-block">
+						<h5 class="display-4 fw-bold syne-font">Delightful Experience</h5>
+						<p class="montserrat-font">
+							Premium interface and 24/7 support for a smooth, satisfying
+							experience.
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-item active">
+					<img src="images/slide1.jpeg" class="d-block w-100 h-25" alt="..." />
+					<div class="carousel-caption d-none d-md-block">
+						<h5 class="display-4 fw-bold syne-font">Low Cost</h5>
+						<p class="montserrat-font">
+							Get data, airtime, and bills at unbeatable discounts
+						</p>
+					</div>
+				</div>
+				<div class="carousel-item active">
+					<img src="images/slide1.jpeg" class="d-block w-100" alt="..." />
+					<div class="carousel-caption d-none d-md-block">
+						<h5 class="display-4 fw-bold syne-font">Safety</h5>
+						<p class="montserrat-font">
+							Your security comes first. Our system encryption ensures your
+							information stays fully protected against fraud
+						</p>
+					</div>
+				</div>
+			</div>
+			<button
+				class="carousel-control-prev"
+				type="button"
+				data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="prev"
+			>
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button
+				class="carousel-control-next"
+				type="button"
+				data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="next"
+			>
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+		<!-- Section Four -->
+		<div class="container mt-5">
+			<p class="pay syne-font display-2 fw-bold mb-5">
+				We provide— <br />
+				<span class="airtime">Quality</span> & quantity.
+			</p>
+			<div class="row gap-3">
+				<div class="col-lg">
+					<img src="images/section4.png" alt="img" class="img-fluid" />
+				</div>
+				<div class="col-lg">
+					<div
+						class="row text-white rounded-4 p-3 mx-1 justify-content-center align-items-center"
+						style="background: #4ab4de; height: 320px"
+					>
+						<div class="col-6">
+							<img src="images/earth.png" alt="logo" class="my-3 img-fluid" />
+							<p class="fw-bold syne-font fs-5">Our Mission</p>
+							<p class="text-sm montserrat-font">
+								Duis aute irure dolor in reprehenderit in vol up tate velit esse
+								cillum dolore.
+							</p>
+						</div>
+						<div class="col-6">
+							<img src="images/vision.png" alt="logo" class="my-3 img-fluid" />
+							<p class="fw-bold syne-font fs-5">Our Vision</p>
+							<p class="text-sm montserrat-font">
+								Duis aute irure dolor in reprehenderit in vol up tate velit esse
+								cillum dolore.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- section Five -->
+		<div class="container-fluid mt-5 p-3 pb-5 sec5-bg-image">
+			<p class="syne-font display-4 mb-5 mt-3 fw-bold text-white text-center">
+				Frequently Asked Questions
+			</p>
+			<div class="container mx-auto row montserrat-font gap-3">
+				<div class="col-md">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Questions</h5>
+							<p class="card-text">
+								Use Jambo for analyzing and engaging with customer feedback,
+								unlocking valuable insights, and revealing new releases.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Questions</h5>
+							<p class="card-text">
+								Use Jambo for analyzing and engaging with customer feedback,
+								unlocking valuable insights, and revealing new releases.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Questions</h5>
+							<p class="card-text">
+								Use Jambo for analyzing and engaging with customer feedback,
+								unlocking valuable insights, and revealing new releases.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container mx-auto mt-3 row montserrat-font gap-3">
+				<div class="col-md">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Questions</h5>
+							<p class="card-text">
+								Use Jambo for analyzing and engaging with customer feedback,
+								unlocking valuable insights, and revealing new releases.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Questions</h5>
+							<p class="card-text">
+								Use Jambo for analyzing and engaging with customer feedback,
+								unlocking valuable insights, and revealing new releases.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Questions</h5>
+							<p class="card-text">
+								Use Jambo for analyzing and engaging with customer feedback,
+								unlocking valuable insights, and revealing new releases.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Section Six -->
+		<div
+			class="container-fluid mt-5 text-white p-4"
+			style="background: #00072d"
+		>
+			<p class="syne-font fw-bold display-4 text-center my-4">
+				We're <span style="color: #2b559f">24/7</span> ready to help you
+				<br />at anytime
+			</p>
+			<div
+				class="container row mx-auto montserrat-font rounded-5 p-4 gap-3"
+				style="background: #111218; color: #717384"
+			>
+				<div class="col-md">
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label"
+							>EMAIL</label
+						>
+						<input
+							type="email"
+							class="form-control border border-0 rounded-5 custom-input"
+							id="exampleFormControlInput1"
+							placeholder="bruce.mars@midas.col"
+						/>
+					</div>
+					<div class="mb-3">
+						<label for="exampleFormControlTextarea1" class="form-label"
+							>Message</label
+						>
+						<textarea
+							class="form-control border border-0 rounded-5 custom-input"
+							id="exampleFormControlTextarea1"
+							rows="5"
+							placeholder="Your Message"
+						></textarea>
+					</div>
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							value=""
+							id="flexCheckDefault"
+						/>
+						<label class="form-check-label" for="flexCheckDefault">
+							I agree with <a href="#">Terms of Use</a> and
+							<a href="#">Privacy Policy</a>.
+						</label>
+					</div>
+					<div class="mt-3">
+						<button
+							type="submit"
+							class="btn btn-primary p-4 rounded-pill d-flex justify-content-between align-items-center w-100 text-start border border-0"
+							style="background: #2b559f !important"
+						>
+							<span class="fw-bold">Send message</span>
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>
+						</button>
+					</div>
+				</div>
+				<div class="col-md">
+					<img src="images/maps.png" alt="map" class="img-fluid" />
+				</div>
+			</div>
+			<div class="container row mx-auto mt-5 montserrat-font gap-3">
+				<div class="col-md">
+					<div
+						class="d-flex flex-row justify-content-center align-items-center gap-4 p-3 rounded-5 w-100"
+						style="background: #111218"
+					>
+						<img src="images/message.png" alt="icon" class="img-fluid" />
+						<div>
+							<p class="fw-bold">Message us</p>
+							<p>support@midas.com</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md">
+					<div
+						class="d-flex flex-row justify-content-start align-items-center gap-4 p-3 rounded-5 w-100"
+						style="background: #111218"
+					>
+						<img src="images/call.png" alt="icon" class="img-fluid" />
+						<div>
+							<p class="fw-bold">Call us</p>
+							<p>(+61) 7 7010-1111</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md">
+					<div
+						class="d-flex flex-row justify-content-center align-items-center gap-4 p-3 rounded-5 w-100"
+						style="background: #111218"
+					>
+						<img src="images/location.png" alt="icon" class="img-fluid" />
+						<div>
+							<p class="fw-bold">Address</p>
+							<p>1618 Lamington Dr, 262.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br /><br />
+			<hr />
+			<div class="container row mt-5 gap-4 montserrat-font text-center">
+				<div class="col-md">
+					<a class="navbar-brand" href="#">
+						<img src="images/Logo.svg" alt="vtu-logo" width="100" height="50" />
+					</a>
+				</div>
+				<div class="col-md"><p>© 2024 MyVTU All Rights Reserved.</p></div>
+			</div>
+		</div>
+
+		<!-- bootstrap -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- custom js -->
+		<script src="main.js"></script>
+	</body>
+</html>

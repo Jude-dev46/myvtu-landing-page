@@ -1,0 +1,138 @@
+:root {
+	--neutral-color: #939090;
+	--blue-color: #2b559f;
+	--yellow-color: #ffca10;
+	--light-blue-color: #4ab4de;
+	--text-color: #2c3e50;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+body {
+	background: whitesmoke !important;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat-font {
+	font-family: 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+}
+
+.syne-font {
+	font-family: 'Syne', sans-serif;
+	font-optical-sizing: auto;
+}
+
+.bb {
+	background: black !important;
+	color: white !important;
+}
+.navbar-nav .nav-link {
+	font-size: 0.9rem;
+}
+
+.text-sm {
+	font-size: 0.9rem !important;
+}
+
+.text-lg {
+	font-size: 90px !important;
+}
+
+.text-md {
+	font-size: 50px !important;
+}
+
+.round {
+	border-radius: 20px !important;
+}
+
+.w-fit {
+	width: fit-content !important;
+}
+
+.navbar-toggler {
+	outline: none !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.navbar-toggler:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.dropdown-toggle:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border: none !important;
+	background-color: black !important;
+}
+
+.sec1-logo-bg {
+	background: #0f1e38;
+}
+
+.sec1-img-text {
+	position: absolute;
+	bottom: 0;
+	left: 70%;
+	color: #594706;
+}
+
+.pay {
+	color: var(--neutral-color);
+}
+
+.data {
+	color: var(--blue-color);
+}
+
+.airtime {
+	color: var(--yellow-color);
+}
+
+.light {
+	color: var(--light-blue-color);
+}
+
+.custom-dimension1 {
+	width: 100%;
+	height: 420px;
+}
+
+.custom-dimension2 {
+	width: 100%;
+	height: 270px;
+}
+
+.grid-layout {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.sec5-bg-image {
+	background-image: url('images/section5.jpeg');
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+
+.custom-input {
+	background: #22242f !important;
+	padding: 20px 15px 20px 15px !important;
+	color: #717384 !important;
+}
+
+.custom-input::placeholder {
+	color: #717384 !important;
+}
