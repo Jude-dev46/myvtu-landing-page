@@ -136,3 +136,34 @@ body {
 .custom-input::placeholder {
 	color: #717384 !important;
 }
+
+.sec2-vector {
+	position: absolute;
+	top: 50%;
+	left: 32%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+@media (max-width: 768px) {
+	.sec2-vector {
+		top: 40%;
+		left: 57%;
+		width: 70%;
+	}
+}
+
+.sec1-vector {
+	position: absolute;
+	top: 72%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	width: 45%;
+}
+
+@media (max-width: 1219px) {
+	.sec1-vector {
+		display: none;
+	}
+}
